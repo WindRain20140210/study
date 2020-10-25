@@ -97,8 +97,8 @@ public class ConsistentHashingWithVirtualNode
      */
     public static List<String> getInitTestData(){
         List<String> dataList=new ArrayList<>();
-         for (int i=0;i<1000000;i++){
-             dataList.add(i+1+"");
+         for (int i=1;i<=1000000;i++){
+             dataList.add(i+"");
          }
          return dataList;
     }
